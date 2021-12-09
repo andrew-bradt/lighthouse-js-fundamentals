@@ -3,3 +3,10 @@ const sayHello = function(name){
 }
 
 sayHello('Andrew');
+
+const returnSayHello = (name)=>{
+  return `Hello, ${name}`;
+}
+
+const greeting = returnSayHello('Jim');
+console.log(greeting);
